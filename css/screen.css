@@ -200,6 +200,17 @@ a:focus {
     display: flow-root;
 }
 
+/* color modifiers */
+
+.o-row--neutral-x-light {
+    background-color: #F7F7FA;
+}
+
+.o-row--gradient-1 {
+    background: linear-gradient(to top right, #5051DB, #3887F7);
+    color: #fff;
+}
+
 /* size modifiers */
 
 .o-row--lg {
@@ -221,6 +232,12 @@ a:focus {
         padding-top: 72px;
         padding-bottom: 48px;
     }
+}
+
+/* padding clear modifiers */
+
+.o-row--clear-top {
+    padding-top: 0;
 }
 
 /*
